@@ -1,0 +1,22 @@
+column,type,label,description
+LGHC Indicator Name,text,,"LGHC Indicator
+
+"
+Geography,text,,"County in which the resident with the ED visit lives (not the county of the specific ED visited).
+"
+Year,text,,"Year in which data was taken
+
+"
+Age Group,text,,"Stratified by ""Under 18,"" ""18 and Older"" and ""All Ages."" LGHC Indicator only uses ""Under 18"" population.
+"
+Strata,text,,"General demographic category under which responses have been stratified. 
+"
+Strata Name,text,,"Specific demographic type under which responses have been stratified.
+"
+Numerator,text,,"Total number of Asthma ED Visits (not the unique number of individuals). Numbers not provided if under 5.
+"
+Rate,numeric,,"Age-Adjusted Rate of Asthma ED Visits (per 10,000 residents): Calculated by dividing the number of asthma ED visits by the estimated population in that county and age group, age-adjusting to the 2000 U.S. Census, and multiplying by 10,000. Rates are not provided for numerators under 12.
+"
+LGHC Indicator ID,text,,"LGHC Indicator ID
+"
+LGHC Target Rate,text,,Target rate for LGHC indicator
